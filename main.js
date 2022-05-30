@@ -10,5 +10,6 @@ const newBaby = (urgent) => {
     return message
 }
 
-newBaby(true).then(console.log)
+
+console.log(newBaby(true))
 //TODO: add shell interface so it asks if urgent and responds accordingly if saved and run locally
