@@ -1,4 +1,4 @@
-const newBaby = async(urgent) => {
+const newBaby = (urgent) => {
     family++
     var onLeave = true
     if (urgent == true) {
