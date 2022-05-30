@@ -1,11 +1,11 @@
+
+var family = 3;
 const newBaby = (urgent) => {
-    family++
-    var onLeave = true
     if (urgent == true) {
         message = "Please contact richard.langlois@rbc.com"
     }
     else{
-        message = "I'll read and respond to your email upon my return in June."
+        message = "I'll read and respond to your email upon my return in June. I am exanding my family capacity from ${family} to ${family + 1}"
     }
     return message
 }
