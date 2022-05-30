@@ -2,7 +2,7 @@
 var family = 3;
 const newBaby = (urgent) => {
     return urgent ? 
-        "Please contact richard.langlois@rbc.com"
+        "Please contact [redacted]@[redacted].com"
         :`I'll read and respond to your email upon my return in June. I am exanding my family capacity from ${family} to ${family + 1}`;
 }
 
